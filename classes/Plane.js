@@ -7,8 +7,8 @@ class Plane {
         this.company = company;
         this.destination = destination;
         this.#passengers = [];
+        this.origin =  Airport.airportCode;
     }
-    static origin =  Airport.airportCode;
 
     getPassengers() {
         return this.#passengers;
