@@ -1,4 +1,5 @@
 class Airport {
+    // static aiportCode = "JFK";
 
 
 }
